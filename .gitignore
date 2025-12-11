@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment variables files
+.env
+
+# macOS
+.DS_Store
+
+# Ignore entire fine-tuning folders (contains secrets)
+16_fine_tuning/
+17_fine_tuning2/
