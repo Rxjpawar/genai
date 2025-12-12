@@ -8,7 +8,7 @@ import os
 load_dotenv()
 
 client = OpenAI(
-    api_key=os.getenv("GOOGLE_API_KEY"),
+    api_key="AIzaSyAs-sATtB71TwG1crgfaPog-FVjRBL3nrE",
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
