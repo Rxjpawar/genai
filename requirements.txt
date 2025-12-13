@@ -1,12 +1,17 @@
 streamlit==1.32.0
 openai==1.13.3
 python-dotenv==1.0.1
+
+# LangChain stack (pydantic v2 compatible)
 langchain==0.1.16
 langchain-core==0.1.52
 langchain-community==0.0.33
 langchain-qdrant==0.1.3
+
+# REQUIRED by langchain-qdrant
+pydantic==2.7.4
+
 qdrant-client==1.7.2
 huggingface-hub==0.22.2
 sentence-transformers==2.6.0
-pydantic==2.6.4
 requests==2.31.0
