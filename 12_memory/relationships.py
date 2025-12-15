@@ -71,7 +71,7 @@ def chat():
 
         llm_output  = result.choices[0].message.content
 
-        print(f"🤖 :{llm_output}")
+        print(f"🤖 : {llm_output}")
 
         mem_client.add([
             {"role": "user", "content": user_query},

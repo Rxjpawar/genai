@@ -6,7 +6,7 @@ import json
 from pymongo import MongoClient
 
 load_dotenv()
-
+#vibe coded 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 client = OpenAI()
 
