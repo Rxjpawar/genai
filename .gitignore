@@ -13,4 +13,3 @@ __pycache__/
 
 # Ignore entire fine-tuning folders (contains secrets)
 16_fine_tuning/
-17_fine_tuning2/
