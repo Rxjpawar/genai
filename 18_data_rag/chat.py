@@ -23,7 +23,7 @@ vector_db = QdrantVectorStore.from_existing_collection(
     embedding=embedding_model
 )
 
-user_query = input("> ")
+user_query = input("🐱 : ")
 
 results = vector_db.similarity_search(
     query=user_query,
