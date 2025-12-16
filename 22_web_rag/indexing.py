@@ -4,12 +4,12 @@ from langchain_qdrant import QdrantVectorStore
 from langchain_huggingface import HuggingFaceEmbeddings
 
 start_url = (
-    "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-tutorial/"
+    "https://docs.chaicode.com/youtube/getting-started/"
 )
 
 loader = RecursiveUrlLoader(
     url=start_url,
-    max_depth=3,
+    max_depth=5,
     use_async=True,
 )
 

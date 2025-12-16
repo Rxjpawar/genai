@@ -48,6 +48,8 @@ def chatbot(state: State):
     You are a website content analysis assistant.
     Answer the user question using only the provided website content.
     If the answer is not present, say it is not available.
+    Evaluate the sentence and sound more human like.
+    User may ask query in simple language so try to extract the fact what he is trying to ask and find similar answers if available.
 
     Context:
     {context}
