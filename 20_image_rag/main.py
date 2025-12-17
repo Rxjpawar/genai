@@ -1,7 +1,5 @@
 from langchain_qdrant import QdrantVectorStore
 from langchain_experimental.open_clip import OpenCLIPEmbeddings
-from dotenv import load_dotenv
-import os
 from typing_extensions import TypedDict
 from typing import Annotated
 from langgraph.graph import StateGraph
@@ -9,6 +7,8 @@ from langgraph.constants import START, END
 from langgraph.graph.message import add_messages
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import SystemMessage, HumanMessage
+from dotenv import load_dotenv
+import os
 
 
 load_dotenv()
