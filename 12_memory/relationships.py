@@ -45,7 +45,7 @@ mem_client = Memory.from_config(config)
 def chat():
     while True:
         user_query = input("🐱 : ")
-        if user_query== "exit":
+        if user_query.lower()== "exit":
             print("Good bye!!!👋")
             break
         relevant_memories = mem_client.search(
