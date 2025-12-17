@@ -22,8 +22,6 @@ text_splitter = RecursiveCharacterTextSplitter(chunk_size=400, chunk_overlap=100
 document = text_splitter.split_documents(documents=docs)
 print(f"Chunks created {len(document)}")
 
-embedding_model = HuggingFaceEmbeddings()
-
 
 print("Loading the embedding model")
 embedding_model = HuggingFaceEmbeddings(
