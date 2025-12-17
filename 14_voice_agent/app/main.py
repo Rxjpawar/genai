@@ -1,9 +1,9 @@
 import speech_recognition as sr
 
 # from .graph import graph
-from dotenv import load_dotenv
 from .graph import compile_graph_with_checkpointer
 from langgraph.checkpoint.mongodb import MongoDBSaver
+from dotenv import load_dotenv
 
 load_dotenv()
 
