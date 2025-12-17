@@ -58,19 +58,19 @@ def chat():
         user_query = input("🐱 : ")
 
         if user_query.lower() == "exit":
-            print("Good bye!!! 👋")
+            print("Good bye")
             break
 
         if user_query.lower() == "history":
-            print("\nChat History:\n")
+            print("Chat History:")
             history = load_history("raj")
             if not history:
-                print("No history found.")
+                print("No history found")
             else:
                 for msg in history:
                     role = "You" if msg["role"] == "user" else "Assistant"
                     print(f"{role}: {msg['content']}")
-            print("\n--- End of History ---\n")
+
             continue
 
         save_chat_message("raj", "user", user_query)
