@@ -1,4 +1,4 @@
-from langchain_openai import ChatOpenAI
+from langchain.chat_models import init_chat_model
 from typing_extensions import TypedDict
 from typing import Annotated
 from langgraph.graph.message import add_messages
@@ -16,12 +16,7 @@ class State(TypedDict):
     messages: Annotated[list, add_messages]
 
 
-llm = ChatOpenAI(
-    api_key=os.getenv("GOOGLE_API_KEY"),
-    model="gemini-2.5-flash",
-    base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
-)
-
+llm = init_chat_model(model_provider="openai", model="gpt-4o-mini")
 
 @tool
 def run_command(cmd:str):
@@ -69,6 +64,7 @@ graph_builder.add_node("tools", tool_node)  # tool node
 graph_builder.add_edge(START, "chatbot")  # edges
 graph_builder.add_conditional_edges("chatbot", tools_condition)  # conditional edge
 graph_builder.add_edge("tools", "chatbot")
+graph_builder.add_edge("chatbot",END)  # we dont need to write this
 
 #graph = graph_builder.compile()
 

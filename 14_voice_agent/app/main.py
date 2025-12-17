@@ -4,8 +4,23 @@ import speech_recognition as sr
 from .graph import compile_graph_with_checkpointer
 from langgraph.checkpoint.mongodb import MongoDBSaver
 from dotenv import load_dotenv
-
+from openai import AsyncOpenAI
+from openai.helpers.local_audio_player import LocalAudioPlayer
 load_dotenv()
+import asyncio
+client = AsyncOpenAI()
+
+async def tts(text: str):
+    async with client.audio.speech.with_streaming_response.create(
+        model = "gpt-4o-mini-tts",
+        voice = "nova",
+        input = text,
+        instructions = "Speak Formal and positive tone.",
+        response_format = "pcm"
+
+    ) as response:
+        await LocalAudioPlayer().play(response)
+
 
 
 def main():
@@ -60,8 +75,10 @@ def main():
                 graph_with_mongo = compile_graph_with_checkpointer(mongo_checkpointer)
 
                 graph_result = graph_with_mongo.invoke(_state, config)
+                output = graph_result["messages"][-1].content
 
-                print("🤖 :", graph_result["messages"][-1].content)
+                print("🤖 :", output)
+                asyncio.run(tts(text=output))
 
 
 main()
