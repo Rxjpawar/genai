@@ -8,9 +8,10 @@ image_dir = os.path.join(os.path.dirname(__file__), "images")
 
 
 loader = DirectoryLoader(
-    image_dir,
+    os.path.join(os.path.dirname(__file__), "images"),
     glob="**/*",
     loader_cls=UnstructuredImageLoader,
+    loader_kwargs={"strategy": "fast"},
 )
 
 
