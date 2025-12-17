@@ -37,9 +37,8 @@ class State(TypedDict):
 
 
 def chatbot(state: State):
-    user_message = state["messages"][
-        -1
-    ].content  # ithe aapn getting the user chi query from appended messages
+    user_message = state["messages"][-1].content  # ithe aapn getting the user chi query from appended messages
+   
     results = vector_db.similarity_search(query=user_message, k=5)
 
     context = "\n\n".join([doc.page_content for doc in results])

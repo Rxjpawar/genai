@@ -9,7 +9,7 @@ start_url = (
 
 loader = RecursiveUrlLoader(
     url=start_url,
-    max_depth=5,
+    max_depth=3,
     use_async=True,
 )
 
