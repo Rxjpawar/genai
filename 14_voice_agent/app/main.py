@@ -6,21 +6,21 @@ from langgraph.checkpoint.mongodb import MongoDBSaver
 from dotenv import load_dotenv
 from openai import AsyncOpenAI
 from openai.helpers.local_audio_player import LocalAudioPlayer
-load_dotenv()
 import asyncio
+
+load_dotenv()
 client = AsyncOpenAI()
+
 
 async def tts(text: str):
     async with client.audio.speech.with_streaming_response.create(
-        model = "gpt-4o-mini-tts",
-        voice = "nova",
-        input = text,
-        instructions = "Speak Formal and positive tone.",
-        response_format = "pcm"
-
+        model="gpt-4o-mini-tts",
+        voice="nova",
+        input=text,
+        instructions="Speak Formal and positive tone.",
+        response_format="pcm",
     ) as response:
         await LocalAudioPlayer().play(response)
-
 
 
 def main():
