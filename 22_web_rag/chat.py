@@ -26,8 +26,8 @@ vector_db = QdrantVectorStore.from_existing_collection(
 
 
 llm = ChatOpenAI(
-    api_key =os.getenv("GROQ_API_KEY"),
-    model = "openai/gpt-oss-20b",
+    api_key=os.getenv("GROQ_API_KEY"),
+    model="openai/gpt-oss-120b",
     base_url="https://api.groq.com/openai/v1",
 )
 
@@ -69,7 +69,7 @@ def chatbot(state: State):
     context = "\n\n".join(context_parts)
 
     system_prompt = SystemMessage(
-    content=f"""
+        content=f"""
         You are an AI assistant specialized in analyzing **ET CIO Exclusives** articles.
 
         Your job is to answer the user’s question **strictly using the provided article content or title or something related to the article**.
