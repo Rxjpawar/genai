@@ -166,10 +166,9 @@ def chatbot(state: State):
 
     1)Example LLM Response for Normal article :
 
-    User : AI Driven Automation
+    User : Ai driven automation
 
-    Title:
-    AI-driven automation: The new engine of enterprise software agility
+    Title: AI-driven automation: The new engine of enterprise software agility
 
     Summary:
     AI-driven automation is transforming how software is delivered in enterprises by embedding AI and machine learning throughout the 
@@ -202,8 +201,7 @@ def chatbot(state: State):
 
     User: Anand Kumar Sinha 
 
-    Title:
-    Anand Kumar Sinha joins Tata Technologies as Chief Digital and Information Officer
+    Title: Anand Kumar Sinha joins Tata Technologies as Chief Digital and Information Officer
 
     Summary:
     Anand Kumar Sinha has joined Tata Technologies as the new Chief Digital and Information Officer, where he will lead the company’s digital transformation and IT strategy. Previously, he was the CIO & Global Head – IT at Birlasoft, where he oversaw global IT strategy, digital transformation, cybersecurity, and enterprise platforms. At Tata Technologies, Sinha will focus on fusing digital, AI, cybersecurity, and core IT capabilities to drive growth and enhance technology foundations. His leadership is expected to strengthen Tata’s position in engineering and digital innovation. 
