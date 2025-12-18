@@ -26,9 +26,9 @@ vector_db = QdrantVectorStore.from_existing_collection(
 
 
 llm = ChatOpenAI(
-    model="gemini-2.5-flash",
-    api_key=os.getenv("GOOGLE_API_KEY"),
-    base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+    api_key =os.getenv("GROQ_API_KEY"),
+    model = "openai/gpt-oss-20b",
+    base_url="https://api.groq.com/openai/v1",
 )
 
 
@@ -72,14 +72,14 @@ def chatbot(state: State):
         content=f"""
     You are an AI assistant specialized in analyzing **ET CIO Exclusives** articles.
 
-    Your job is to answer the user’s question **strictly using the provided article content**.
+    Your job is to answer the user’s question **strictly using the provided article content or title or something related to the article**.
+    User may give you half context or title try to complete it using available data and then give response
     Do not use external knowledge or assumptions.
 
     General rules:
     - Use only information explicitly present in the content.
     - The user may ask questions in simple or informal language; infer intent carefully.
-    - If the required information is not found, respond with:
-    "This information is not available in the provided articles."
+    - If the required information is not found try to find similar inforation 
     - Maintain a professional, clear, and human-like tone.
     - Do not hallucinate names, titles, roles, companies, publishers, or authors.
 
@@ -164,9 +164,9 @@ def chatbot(state: State):
     - Do NOT infer article type unless clearly supported by the content.
     - If the article type cannot be determined, say so clearly.
 
-    1)Example LLM Response for Normal article with author:
+    1)Example LLM Response for Normal article :
 
-    “Revolutionizing Software Development: The Power of AI-Driven Automation”
+    User : AI Driven Automation
 
     Title:
     AI-driven automation: The new engine of enterprise software agility
@@ -184,7 +184,23 @@ def chatbot(state: State):
     Publisher:
     ETCIO (Economic Times CIO)
 
-    2)Example LLM Output (Appointment Article)
+    2)Example LLM Response for Normal article :
+
+    User : Qunatum computing
+
+    Title: Quantum Computing Threatens Cryptocurrency Security by 2027, ETCIO
+
+    Summary:
+    Quantum computers, with their ability to process information exponentially faster, pose a severe threat to the cryptographic foundations of 
+    major cryptocurrencies such as Bitcoin. Experts warn that by 2027, quantum advancements could potentially break wallet and blockchain signatures, putting billions of dollars’ worth of digital assets at risk. While post‑quantum cryptographic solutions are being explored, the industry faces a narrow window to transition before quantum capabilities outpace current security measures.
+
+    Publisher:
+    ETCIO (Economic Times CIO)
+
+    
+    3)Example LLM Output (Appointment Article)
+
+    User: Anand Kumar Sinha 
 
     Title:
     Anand Kumar Sinha joins Tata Technologies as Chief Digital and Information Officer
