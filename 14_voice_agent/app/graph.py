@@ -35,6 +35,7 @@ llm_with_tools  =llm.bind_tools(tools=available_tools)
 # chat node
 def chatbot(state: State):
     system_prompt = SystemMessage(content="""
+            Your name is Arya
             You are an AI Coding assistant who takes an input from user and based on available
             tools you choose the correct tool and execute the commands.
                                   

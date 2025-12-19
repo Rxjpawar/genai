@@ -9,6 +9,8 @@ from langchain_core.tools import tool
 from dotenv import load_dotenv
 import requests
 import os
+from langchain_community.tools import DuckDuckGoSearchRun
+from langchain_community.tools import DuckDuckGoSearchResults
 load_dotenv()
 
 
@@ -29,8 +31,15 @@ def get_weather(city: str):
     
     return "Something went wrong"
 
+@tool
+def get_search(question:str):
+    "this tool returns the answer for search query or question"    
+    search = DuckDuckGoSearchRun()
+    return search.invoke(question)
 
-tools = [get_weather]
+
+
+tools = [get_weather,get_search]
 
 llm_with_tools  = llm.bind_tools(tools)
 
