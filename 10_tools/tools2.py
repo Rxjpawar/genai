@@ -29,7 +29,7 @@ def get_weather(city: str):
 
 @tool
 def get_search(question:str):
-    "this tool returns the answer for search query or question"
+    "this tool returns the answer for search query or questions"
     
     search = DuckDuckGoSearchRun()
     return search.invoke(question)
