@@ -21,7 +21,15 @@ config = {
             "model": "text-embedding-3-small"
         }
     },
-    "llm": {"provider": "openai", "config": {"api_key": OPENAI_API_KEY, "model": "gpt-4.1"}},
+    "llm": {
+        "provider": "openai",
+        "config": {
+            "api_key": OPENAI_API_KEY,
+            "model": "gpt-4.1"
+        }
+    
+    },
+
     "vector_store": {
         "provider": "qdrant",
         "config": {
