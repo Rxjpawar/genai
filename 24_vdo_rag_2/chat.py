@@ -24,11 +24,10 @@ vector_db = QdrantVectorStore.from_existing_collection(
     url="http://localhost:6333", collection_name="video_rag", embedding=embedding_model
 )
 
-
 llm = ChatOpenAI(
-    model="gemini-2.5-flash",
-    api_key=os.getenv("GOOGLE_API_KEY"),
-    base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+    api_key =os.getenv("GROQ_API_KEY"),
+    model = "openai/gpt-oss-120b",
+    base_url="https://api.groq.com/openai/v1",
 )
 
 
