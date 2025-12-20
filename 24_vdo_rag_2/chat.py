@@ -44,7 +44,7 @@ def chatbot(state: State):
     context = "\n\n".join([doc.page_content for doc in results])
 
     system_prompt = SystemMessage(
-        content=f"""
+    content=f"""
     You are a video content analysis assistant.
     Answer the user question using only the provided video transcript context.
     If the answer is not present, say it is not available in the video.

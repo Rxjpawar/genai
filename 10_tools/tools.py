@@ -10,7 +10,6 @@ from dotenv import load_dotenv
 import requests
 import os
 from langchain_community.tools import DuckDuckGoSearchRun
-from langchain_community.tools import DuckDuckGoSearchResults
 
 load_dotenv()
 
