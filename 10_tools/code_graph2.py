@@ -39,7 +39,7 @@ class State(TypedDict):
 def classify_msg(state: State):
     user_msg = state["messages"][-1].content
 
-    system_prompt =f"""
+    system_prompt =SystemMessage(content= f"""
     Determine if the following question is a coding/programming question.
     Respond ONLY with JSON.
 
@@ -47,10 +47,9 @@ def classify_msg(state: State):
 
     Format:
     {{ "is_coding_question": true/false }}
-    """
+    """)
 
-    response = llm2.invoke(system_prompt)
-
+    response = llm2.invoke([system_prompt])
 
     result = ClassifyMessageType.model_validate_json(response.content)
 
