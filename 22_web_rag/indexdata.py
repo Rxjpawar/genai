@@ -1,34 +1,35 @@
-from langchain_community.document_loaders import RecursiveUrlLoader,WebBaseLoader
-from dotenv import load_dotenv
+import requests
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 
-load_dotenv()
-
-START_URL = "https://cio.economictimes.indiatimes.com/exclusives/"
+BASE_URL = "https://cio.economictimes.indiatimes.com/exclusives?utm_source=main_menu&utm_medium=exclusiveNews"
+START_URL = f"{BASE_URL}/news/cio-movement"
 OUTPUT_FILE = "data.txt"
 
-# 1️⃣ Load webpage
-loader = loader = RecursiveUrlLoader(
-    url=START_URL,
-    max_depth=2,
-    use_async=True,
-)
-docs = loader.load()
+headers = {
+    "User-Agent": "Mozilla/5.0"
+}
 
-# 2️⃣ Filter useful content
-docs = [
-    d for d in docs
-    if d.page_content and len(d.page_content.strip()) > 500
-]
+response = requests.get(START_URL, headers=headers, timeout=20)
+response.raise_for_status()
 
-print(f"Documents loaded: {len(docs)}")
+soup = BeautifulSoup(response.text, "html.parser")
 
-# 3️⃣ Write raw content to txt
+articles = []
+
+for a in soup.select("a[href^='/news/']"):
+    title = a.get_text(strip=True)
+    href = a.get("href")
+
+    if title and len(title) > 20:
+        full_url = urljoin(BASE_URL, href)
+        articles.append((title, full_url))
+
+print("Articles found:", len(articles))
+
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    for i, doc in enumerate(docs, start=1):
-        f.write(f"\n{'='*100}\n")
-        f.write(f"DOCUMENT {i}\n")
-        f.write(f"SOURCE: {doc.metadata.get('source', 'N/A')}\n\n")
-        f.write(doc.page_content)
-        f.write("\n")
+    for i, (title, url) in enumerate(articles, 1):
+        f.write(f"{i}. {title}\n")
+        f.write(f"{url}\n\n")
 
-print(f"Raw scraped data saved to {OUTPUT_FILE}")
+print("data.txt GENERATED WITH REAL DATA")
