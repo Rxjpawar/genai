@@ -1,7 +1,6 @@
 from langchain_qdrant import QdrantVectorStore
 from langchain_huggingface import HuggingFaceEmbeddings
 from dotenv import load_dotenv
-from openai import OpenAI
 import os
 from typing_extensions import TypedDict
 from langgraph.graph import StateGraph
