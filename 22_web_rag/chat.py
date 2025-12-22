@@ -38,7 +38,7 @@ class State(TypedDict):
 def chatbot(state: State):
     user_message = state["messages"][
         -1
-    ].content  # etting the user and appendding into messages
+    ].content  # getting the user and appendding into messages
 
     results = vector_db.similarity_search(query=user_message, k=5)
 
