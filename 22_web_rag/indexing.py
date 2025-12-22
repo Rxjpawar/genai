@@ -15,7 +15,7 @@ start_url = (
 
 loader = RecursiveUrlLoader(
     url=start_url,
-    max_depth=2,
+    max_depth=1,
     use_async=True,
 )
 
@@ -45,6 +45,6 @@ vector_store = QdrantVectorStore.from_documents(
     url="http://localhost:6333",
     collection_name="cio_rag",
     embedding=embedding_model,
-    force_recreate = True
+    force_recreate = False
 )
 print("Indexing is completed")
