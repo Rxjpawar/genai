@@ -30,7 +30,10 @@ def summarize_article(title, url):
     Article content:
     {article_text}
 
-    Give a concise 5–6 line executive summary.
+    - Give a concise 5–6 line executive summary.
+    - Name of Ececutive (skip if not available)
+    - Name of Publisher (skip if not available)
+    - Name of Author (skip if not available)
     
     """
 
