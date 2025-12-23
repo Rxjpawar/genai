@@ -16,7 +16,7 @@ def fetch_links():
     soup = BeautifulSoup(r.text, "html.parser")
     links = []
 
-    #HERO / FEATURED ARTICLES
+    # ---------- HERO / FEATURED ARTICLES ----------
     for h in soup.select("h2 a, h3 a"):
         href = h.get("href")
         title = h.get_text(strip=True)
@@ -28,7 +28,7 @@ def fetch_links():
 
         links.append((title, urljoin(BASE_URL, href)))
 
-    #NORMAL ARTICLE LIST
+    # ---------- NORMAL ARTICLE LIST ----------
     for a in soup.find_all("a", href=True):
         href = a["href"]
         title = a.get_text(strip=True)
@@ -40,7 +40,7 @@ def fetch_links():
 
         links.append((title, urljoin(BASE_URL, href)))
 
-    #DEDUP + PRESERVE ORDER
+    # ---------- DEDUP + PRESERVE ORDER ----------
     seen = set()
     unique_links = []
     for title, url in links:

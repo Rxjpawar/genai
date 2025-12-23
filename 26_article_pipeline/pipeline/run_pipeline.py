@@ -14,7 +14,7 @@ new_urls = []
 
 for title, url in links:
     if url in seen_urls:
-        print("⏩ Skipped (already summarized)")
+        print("Skipped (already summarized)")
         continue
 
     try:
@@ -29,4 +29,4 @@ if new_rows:
     save_to_txt(new_rows)
     mark_seen(new_urls)
 
-print(f"✅ Done | New summaries added: {len(new_rows)}")
+print(f"New summaries added: {len(new_rows)}")

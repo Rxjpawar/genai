@@ -16,7 +16,7 @@ load_dotenv()
 
 llm = ChatOpenAI(
     api_key =os.getenv("GROQ_API_KEY"),
-    model = "openai/gpt-oss-120b",
+    model = "meta-llama/llama-4-scout-17b-16e-instruct",
     base_url="https://api.groq.com/openai/v1",
 )
 
@@ -85,3 +85,4 @@ def main():
 
 
 main()
+

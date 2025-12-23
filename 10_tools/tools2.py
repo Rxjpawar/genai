@@ -29,7 +29,7 @@ def get_weather(city: str):
 
 @tool
 def get_search(question:str):
-    "this tool returns the answer for search query or questions"
+    "this tool returns the answer for search query or questions and URLs"
     
     search = DuckDuckGoSearchRun()
     return search.invoke(question)
@@ -50,9 +50,7 @@ class State(TypedDict):
 
 def chatbot(state: State):
     system_prompt = SystemMessage(
-        content=""" 
-
-
+        content=""" when user provides the link try to search it using available tool
     """
     )
     response = llm.invoke([system_prompt] + state["messages"])

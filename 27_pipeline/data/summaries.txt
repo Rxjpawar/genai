@@ -1,0 +1,256 @@
+====================================================================================================
+TITLE   : Deepak Gupta joins AMPL as Group Chief Technology and AI Officer
+URL     : https://cio.economictimes.indiatimes.com/news/artificial-intelligence/deepak-gupta-appointed-group-chief-technology-and-ai-officer-at-ampl/126118902
+
+SUMMARY:
+Deepak Gupta, former CTO of CARS24, has joined Automotive Manufacturers Private Limited (AMPL) as Group Chief Technology and AI Officer to lead the company’s AI-native transformation. His immediate focus is on creating unified digital and AI foundations across the group by consolidating fragmented systems, modernising legacy platforms, and strengthening data and analytics capabilities. Gupta will work to embed AI-driven intelligence across AMPL’s automotive retail, FinTech division, workshops, and after-sales operations to enhance scale, resilience, and competitive advantage. He brings prior experience from CARS24, where he led large-scale AI, data, cloud, and platform engineering transformations across multiple countries, and from Airtel Africa, where he oversaw technology transformation in 14 markets, including telecom-grade and FinTech platforms. At AMPL, Gupta aims to move beyond basic digitisation toward re-engineering the organisation around AI-native platform engineering, with intelligence built into core systems. He describes the role as an opportunity to architect a unified, intelligent enterprise within a legacy organisation.
+
+Author: ETCIO Desk  
+Publisher: ETCIO
+
+====================================================================================================
+TITLE   : Reinventing IT at scale: What Kyndryl CIO Kim Basile learned as Customer Zero
+URL     : https://cio.economictimes.indiatimes.com/news/corporate-news/transforming-it-insights-from-kyndryls-cio-kim-basile-on-navigating-modern-challenges/126074162
+
+SUMMARY:
+Kyndryl CIO Kim Basile describes a widening “ambition gap” in enterprise IT, where leaders overestimate their capabilities while underestimating structural barriers such as legacy infrastructure, technical debt, and weak data foundations. She highlights findings from Kyndryl’s Readiness Report, noting that although most executives rate their IT as best-in-class, far fewer feel prepared for disruption, and many are stuck in perpetual pilot mode with inconsistent data and insufficient focus on workforce readiness and culture. Basile outlines Kyndryl’s own post-separation transformation as “Customer Zero,” including drastic application and data warehouse consolidation, major platform modernization, and significant IT cost reduction, enabled by strong change management and a clear business-led approach. Customer demands for transparency and risk visibility led to the creation of Kyndryl Bridge, an AI-powered platform that provides customers with real-time, shared insight into asset health, vulnerabilities, and remediation actions. She stresses the importance of fully exploiting “batteries included” capabilities in core platforms like SAP, Workday, Okta, and Microsoft 365 through close IT–business collaboration, and of embedding governance, visibility, and skills development into AI and security strategies. Looking ahead, Basile emphasizes continuous monitoring, formal AI governance, and disciplined experimentation as essential to moving AI from experimentation to scaled, secure enterprise impact.
+
+Author:
+Sneha Jha  
+Publisher:
+ETCIO  
+Executive:
+Kim Basile, CIO, Kyndryl
+
+====================================================================================================
+TITLE   : Sriram Arthanari joins Kaleesuwari Group as VP–IT
+URL     : https://cio.economictimes.indiatimes.com/news/cio-movement/sriram-arthanari-appointed-as-vp-it-at-kaleesuwari-group-amid-digital-transformation/126075366
+
+SUMMARY:
+Sriram Arthanari has been appointed Vice President – Information Technology at Kaleesuwari Group, an FMCG company focusing on manufacturing-led transformation, retail expansion and digital strengthening. In this role, he is tasked with positioning IT as a strategic growth enabler, including Industry 4.0 and IoT-driven smart factory initiatives, SAP S/4HANA modernization, enhanced cybersecurity, and building a modern data and AI ecosystem. His mandate also covers next-generation distributor management systems (DMS) and sales force automation (SFA), as well as supporting technology initiatives in the group’s retail and energy businesses. Arthanari’s immediate priorities are to deeply understand Kaleesuwari’s business processes, manufacturing operations and sales ecosystem while maintaining stability, security and continuity of current IT systems. Over the longer term, he aims to create a future-ready IT landscape using data, analytics, AI/ML, automation and digital platforms to improve operational efficiency, supply chain visibility and decision-making. He brings prior experience from Cosmo First Limited, where he led digital transformation across core applications, customer experience, HR, cybersecurity and data platforms, and emphasizes a pragmatic, execution-focused approach aligned closely with business priorities.
+
+Author:
+ETCIO Desk  
+
+Publisher:
+ETCIO  
+
+Executive:
+Sriram Arthanari
+
+====================================================================================================
+TITLE   : India’s AI mandate: From experiments to an intelligent enterprise
+URL     : https://cio.economictimes.indiatimes.com/news/artificial-intelligence/indias-transition-to-ai-from-experimental-pilots-to-full-integration/126056158
+
+SUMMARY:
+India’s large enterprises are prioritizing AI, but adoption remains uneven, with only 8% fully integrating AI into core operations while most are stuck in pilots or early experimentation. Sectoral progress varies: BFSI and IT-enabled services are relatively advanced, while manufacturing, healthcare, and retail often remain limited to tactical or front-end use cases and frequently conflate basic automation with true AI. Experts cited in the article note that organizations are converging on three near-term priorities—operations automation, customer service transformation, and marketing personalization—driven by specific KPI pain points rather than hype. A key execution challenge is scaling from pilot to production, where real-world data complexity, unclear ownership, and employee resistance can stall initiatives, underscoring the need for governance, retraining budgets, and structured change management. Case examples, such as Bandhan Bank, illustrate a phased approach to building AI-native operating models that embed intelligence into workflows, move toward predictive capabilities, and ultimately enable more autonomous operations while exposing underlying process and data weaknesses. By 2026, the article anticipates Indian enterprises will focus less on “doing AI projects” and more on measuring AI’s contribution to productivity, risk, and growth, with success framed in terms of value and “return on employee” rather than pilots or model accuracy alone.
+
+Author:
+Krishna Mukherjee  
+Publisher:
+ETCIO  
+Executive:
+Ratan Kesh (Executive Director and COO, Bandhan Bank); Amit Jadhav (entrepreneur and author); Rakesh Bhardwaj (Lupin)
+
+====================================================================================================
+TITLE   : AI-driven automation: The new engine of enterprise software agility
+URL     : https://cio.economictimes.indiatimes.com/news/artificial-intelligence/revolutionizing-software-development-the-power-of-ai-driven-automation/125912460
+
+SUMMARY:
+AI-driven automation is presented as a key enabler for modern enterprises to accelerate software delivery, improve quality, and better align IT with business needs. The article describes a shift from basic task automation to intelligent, AI- and ML-powered platforms that can generate and refactor code, predict defects, optimize testing, and orchestrate deployments with self-healing capabilities. Organizations adopting these tools report faster release cycles, fewer defects, and reduced manual bottlenecks, while developers benefit from copilots, automated documentation, and personalized assistance that enhance productivity and reduce burnout. AI is also highlighted as a driver of “business-aligned DevOps,” giving leaders real-time visibility into cost, risk, and strategic KPIs, and supporting data-driven portfolio and scenario decisions. To scale these benefits, the article stresses the need for unified engineering platforms with embedded AI, strong governance and data quality, and workforce upskilling, positioning software delivery as a strategic growth engine within digital transformation.
+
+Author:
+Hari Parameswaran  
+
+Publisher:
+ETCIO  
+
+Executive:
+Hari Parameswaran, SVP & Global Delivery Head – Application Development & Management Practice, Cognizant
+
+====================================================================================================
+TITLE   : Quantum computing could break Bitcoin by 2027: The end of crypto security?
+URL     : https://cio.economictimes.indiatimes.com/news/next-gen-technologies/quantum-computing-threatens-cryptocurrency-security-by-2027/125860132
+
+SUMMARY:
+Experts cited in the article warn that advances in quantum computing could undermine the cryptographic foundations of major cryptocurrencies such as Bitcoin and Ethereum as early as 2027, enabling attackers to decrypt private keys and manipulate transactions. The piece notes rapid progress by players like Google and IBM, referencing Google’s 2019 Sycamore result and estimates that a machine capable of breaking 256-bit encryption could emerge within a few years. Some security leaders, however, argue that timelines like 2027 are overly aggressive and emphasize that stronger standards (e.g., RSA 4096 and post-quantum cryptography, or PQC) can remain secure against foreseeable quantum capabilities. The article explains that cryptocurrencies rely on public-key cryptography, particularly elliptic curve schemes, which are theoretically vulnerable to sufficiently powerful quantum computers that can solve the underlying mathematical problems far faster than classical systems. Industry experts highlight that the main risk may fall on legacy or inactive wallets that cannot be migrated to quantum-safe schemes, even if newer systems adopt PQC. The article concludes that while post-quantum solutions are being developed and tested in next-generation blockchain projects, the transition window is limited and the crypto industry must proactively overhaul its security infrastructure to remain viable in a post-quantum era.
+
+Author: Muqbil Ahmar  
+Publisher: ETCIO
+
+====================================================================================================
+TITLE   : Anand Kumar Sinha joins Tata Technologies as Chief Digital and Information Officer
+URL     : https://cio.economictimes.indiatimes.com/news/cio-movement/anand-kumar-sinha-joins-tata-technologies-as-chief-digital-and-information-officer/125732647
+
+SUMMARY:
+Anand Kumar Sinha has been appointed Chief Digital and Information Officer at Tata Technologies, where he will lead IT strategy, digital transformation, secure-by-design implementation, operations, and data-driven initiatives as core enablers of business growth and customer value. He stated that his immediate priorities include understanding the company’s business, people, customers and technology landscape, while reinforcing IT stability, security and scalability. Sinha is also assessing Tata Technologies’ digital ecosystem to identify quick wins and build collaborative partnerships with business and technology leaders to accelerate impact. 
+
+Previously, Sinha served as CIO and Global Head – IT at Birlasoft, overseeing global IT strategy across infrastructure, cybersecurity, governance, enterprise platforms, AI and digital transformation, with a mandate to position IT as a strategic business enabler. He outlined a clear leadership approach that emphasizes technology serving business outcomes, cybersecurity as foundational, people as central to transformation, and simplicity in large programmes. Sinha said he is particularly drawn to Tata Technologies’ position at the intersection of engineering, digital and manufacturing, and its mission of “Engineering a Better World.”
+
+Author:
+ETCIO Desk  
+Publisher:
+ETCIO
+
+====================================================================================================
+TITLE   : Inside Apollo Tyres’ Factory of Future: AI, Automation, & Sustainable Manufacturing
+URL     : https://cio.economictimes.indiatimes.com/videos/inside-apollo-tyres-factory-of-future-ai-automation-sustainable-manufacturing/125684598
+
+SUMMARY:
+Apollo Tyres is pursuing an Industry 4.0-led transformation of its manufacturing operations, centered on AI, automation and sustainability. Chief Digital Officer Hizmy Hassen outlines how the company is deploying machine-level analytics and AI-powered process optimization to improve efficiency and quality across its plants. The firm’s “Factory of the Future” approach focuses on building highly automated, low-carbon, and resource-efficient production environments. A dedicated Digital Innovation Centre is enabling faster experimentation and deployment of digital solutions, enhancing speed and consistency in tyre manufacturing. The overall objective is to create a future-ready, greener and more circular manufacturing model that tightly integrates smart technologies with sustainable practices.
+
+Author: Sneha Jha  
+Publisher: ETCIO  
+Executive: Hizmy Hassen, CDO, Apollo Tyres
+
+====================================================================================================
+TITLE   : Dr. Puneet Kaur Kohli joins Generali Central Life Insurance as CTO
+URL     : https://cio.economictimes.indiatimes.com/news/cio-movement/dr-puneet-kaur-kohli-joins-generali-central-life-insurance-as-cto/125538888
+
+SUMMARY:
+Dr. Puneet Kaur Kohli has been appointed Chief Technology Officer at Generali Central Life Insurance, bringing more than three decades of multi-industry IT leadership experience. She previously served as President IT & Data (CIO) at Liberty General Insurance, where she was Market Technology Leader for India within the Asia Retail Markets structure. Before Liberty, she held CTO and senior technology roles at Universal Sompo General Insurance, Manappuram Finance, Bajaj Capital, AT&T, Bharti Airtel, and Soma Networks. In her remarks, Dr. Kohli emphasized advancing the company’s technology roadmap and digital transformation initiatives, with a leadership approach focused on enabling others’ performance. She holds degrees from Delhi University and an MBA from the Faculty of Management Studies, along with a research doctorate from Young Scientists University in the US. Dr. Kohli is also an author and frequent speaker at technology forums, with professional exposure spanning over 100 countries across six continents.
+
+Author:
+Muqbil Ahmar  
+Publisher:
+ETCIO
+
+====================================================================================================
+TITLE   : New DPDP regime strengthens data subject rights, redefines consent standards
+URL     : https://cio.economictimes.indiatimes.com/news/digital-security/dpdp-rules-revolutionize-data-rights-and-consent-framework/125498900
+
+SUMMARY:
+The article explains that India’s DPDP Rules, 2025 introduce a more stringent consent framework and expanded data subject rights, placing individuals at the center of data governance. Organizations must now provide clear, standalone, plain-language notices that specify what data is collected, for what purposes, and how it will be used, along with simple mechanisms for consent withdrawal, data correction, and complaint filing with the Data Protection Board (DPB). The rules formally recognize consent managers—registered entities responsible for collecting, recording, and managing consent—and impose special requirements for processing children’s data, including verifiable parental consent. Some security leaders note that while the direction of the regime is clear, several structural aspects, such as the role of the SDF and detailed operational guidance, remain undefined until the DPB becomes fully functional. For enterprises, the new framework will require redesign of consent flows, user interfaces, data lifecycle governance, and potentially new reliance on third-party consent management solutions, especially in consumer-facing sectors. Industry voices anticipate that the DPDP regime will evolve through enforcement actions and practical experience, leading to periodic refinements and more detailed regulatory expectations.
+
+Author:
+Muqbil Ahmar  
+Publisher:
+ETCIO
+
+====================================================================================================
+TITLE   : How India’s DPDP rules reshape risk, cost and governance
+URL     : https://cio.economictimes.indiatimes.com/news/digital-security/how-indias-dpdp-rules-reshape-risk-cost-and-governance/125433955
+
+SUMMARY:
+India’s Digital Personal Data Protection (DPDP) Rules, 2025 have been formally notified, operationalizing the DPDP Act, 2023 and setting out concrete obligations and timelines for enterprises that handle digital personal data. The rules introduce a phased implementation over up to 18 months (12 months for consent managers), giving organizations time to build capabilities such as data mapping, consent management, and breach response, which is expected to particularly help smaller businesses. Compliance will increase operational costs, with legal and technology experts anticipating higher budgets for data governance, privacy-by-design architectures, consent and deletion workflows, and security tooling. Key requirements include comprehensive data mapping and classification, robust consent mechanisms, a two-tier breach notification regime with a 72-hour reporting window to the Data Protection Board, appointment of Data Protection Officers for Significant Data Fiduciaries, and annual Data Protection Impact Assessments and audits. Enterprises must also perform due diligence on software and algorithms used for data processing, review vendor contracts, and establish clear data retention and deletion policies, making privacy a continuous governance function rather than a one-time exercise. The article emphasizes that organizations should act proactively—treating compliance as both a risk-management necessity and an opportunity to strengthen trust and competitive positioning through privacy-by-design.
+
+Author:
+Muqbil Ahmar  
+
+Publisher:
+ETCIO
+
+====================================================================================================
+TITLE   : Anjali Satam joins ACG World as CTO
+URL     : https://cio.economictimes.indiatimes.com/news/corporate-news/anjali-satam-appointed-cto-of-acg-world-spearheading-digital-transformation/125289629
+
+SUMMARY:
+Anjali Satam has been appointed Chief Technology Officer at ACG World, where she will lead the company’s technology strategy to support business growth, digital transformation, and operational efficiency. In her remarks, Satam emphasized her focus on accelerating innovation, aligning technology initiatives with ACG World’s long-term growth vision, and strengthening the firm’s digital strategy. She joins from IKS Health, where as Head of Technology Engineering she modernized the technology landscape, converted bespoke applications into scalable healthcare products, and improved automation, costs, and clinician efficiency using AI-driven workflows. Previously, at Tata Digital as Director of Technology, she led the integration of Tata brands into the Tata Neu platform, addressing drop-off rates, payment failures, and performance issues, and drove omnichannel innovation and financial services integration that contributed to a threefold increase in GMV. Across her 20-year career, Satam has focused on large-scale digital transformation and process excellence in enterprise environments. She positions herself as a digital-first IT business leader committed to creating value through tight integration of digital technologies with business processes.
+
+Author:
+Muqbil Ahmar  
+Publisher:
+ETCIO
+
+====================================================================================================
+TITLE   : The end of POC theatre: CIOs shift from concept to value
+URL     : https://cio.economictimes.indiatimes.com/news/strategy-and-management/the-end-of-poc-theatre-cios-shift-from-concept-to-value/125268939
+
+SUMMARY:
+Indian CIOs are moving away from running numerous exploratory proofs of concept (POCs) and are instead demanding clear business intent, measurable outcomes, and stronger governance for any technology pilot. Leaders such as Pavan Goyal of Mphasis stress that POCs often fail not due to technology but because they are launched without a defined problem, success criteria, or business “hunger” driving them. CIOs including Anand Kumar Sinha of Birlasoft and Sriram Naganathan of HDFC ERGO are instituting stricter frameworks, requiring every POC to be tied to outcomes such as business impact, operational efficiency, compliance, and risk, and to be evaluated rigorously for adoption, value, and integration. In sectors with tight margins, executives like Manjunath Prasad of TVS Mobility emphasize that pilots are financial decisions, judged on revenue growth, cost optimization, and productivity, with limited tolerance for open-ended experimentation. Across organizations, culture and business ownership are identified as critical to turning pilots into scaled solutions, with innovation framed as “governed creativity” rather than ad hoc experimentation. The emerging CIO playbook focuses on fewer, more strategic pilots that progress from proof of concept to proof of value, with success defined by how many initiatives scale and deliver sustained business results.  
+
+Author: ETCIO Desk  
+Publisher: ETCIO
+
+====================================================================================================
+TITLE   : Our AI engine helps brands make decisions at “Quick-Commerce-Like” speed, says Satyam Krishna, GobbleCube
+URL     : https://cio.economictimes.indiatimes.com/news/artificial-intelligence/our-ai-engine-helps-brands-make-decisions-at-quick-commerce-like-speed-says-satyam-krishna-gobblecube/125221986
+
+SUMMARY:
+GobbleCube is an AI-powered platform that helps brands make rapid, data-driven decisions by converting billions of e-commerce data points into insights within minutes. Serving over 250 brands, including large enterprises and D2C players like L’Oreal, P&G, Dabur, ITC, and Reckitt, the company focuses on questions around performance, spend allocation, pricing, campaign effectiveness, and margin improvement. Its flagship CXO-focused agent, GobbsGPT, uses proprietary small language models to move beyond descriptive analytics to diagnosing issues and recommending specific next actions, such as bid or regional spend adjustments. GobbleCube’s data infrastructure runs on Snowflake, which replaced its earlier Redshift-based setup and now supports near real-time data ingestion, model execution, and instant dashboards. The Snowflake migration has reduced processing times by up to sixfold, cut onboarding time for new brands to about five minutes, and enabled features like real-time alerts and conversational insights. These capabilities have allowed GobbleCube to scale its customer base and product innovation while maintaining a lean team and emphasizing decision speed over traditional dashboarding.
+
+Author:
+Shipra Malhotra
+
+Publisher:
+ETCIO
+
+Executive:
+Satyam Krishna, Founding Engineer & Head of Data Engineering, GobbleCube
+
+====================================================================================================
+TITLE   : Ninad Raje joins Times Group as the Group CIO
+URL     : https://cio.economictimes.indiatimes.com/news/cio-movement/ninad-raje-joins-times-group-as-the-group-cio/125222072
+
+SUMMARY:
+Times Group has appointed Ninad Raje as its new Group Chief Information Officer, tasking him with steering the organisation’s global technology landscape and digital transformation. Raje brings nearly three decades of experience across sectors including media, manufacturing, BFSI, insurance, healthcare, technology, telecom and internet services. He stated that his focus will be on aligning technology with business goals, enabling innovation and operational excellence, and delivering solutions that create tangible value. Prior to this role, he served as Group CIO at Jaquar & Company, where he was responsible for defining the company’s digital growth blueprint. Raje is recognised for driving the “4 Ps” of People, Performance, Productivity and Profitability, and has contributed to multi-million-dollar valuations at Fortune 10 companies during his tenure in the US. He is also an IIM Ahmedabad alumnus and a frequent speaker at international forums.
+
+Author:
+Muqbil Ahmar  
+Publisher:
+ETCIO  
+Executive:
+Ninad Raje
+
+====================================================================================================
+TITLE   : Arivarasu Selvaraj exits Adani Group, joins Adventz Group
+URL     : https://cio.economictimes.indiatimes.com/news/cio-movement/arivarasu-selvaraj-joins-adventz-group-as-chief-digital-officer-after-leaving-adani-group/125221922
+
+SUMMARY:
+Arivarasu Selvaraj has joined the Adventz Group of Companies as Group Chief Digital Officer, following his tenure as Group CDO at the Adani Group. At Adani, he focused on modernising core platforms and driving digital adoption across multiple businesses. With over 30 years of experience in digital strategy, transformation, and AI, Selvaraj emphasizes technology as a means to enable better decision-making rather than pursuing trends. 
+
+In his new role at Adventz, his immediate priority is to map data flows across the group’s diverse businesses, identify bottlenecks, and clarify information gaps before selecting tools or platforms. Over time, he plans to build an integrated digital foundation with shared data standards, common processes, and greater transparency across business units. Selvaraj describes his approach as “practical transformation,” stressing that technology must change behaviour and improve how people work to truly impact business performance.
+
+Author:
+Annanya Nayyar  
+Publisher:
+ETCIO
+
+====================================================================================================
+TITLE   : Veneeth Purushotaman hands over CIO role to Kumar KV at Aster DM healthcare
+URL     : https://cio.economictimes.indiatimes.com/news/cio-movement/veneeth-purushotaman-hands-over-cio-role-to-kumar-kv-at-aster-dm-healthcare/125177873
+
+SUMMARY:
+Aster DM Healthcare has announced a leadership transition in its technology function, with Kumar KV appointed as Group CIO, succeeding Veneeth Purushotaman after his seven-year tenure in the role. Kumar joins Aster DM Healthcare following a decade at Narayana Health, where he led technology transformation initiatives, having begun his career as a consultant at PwC. In his LinkedIn post, Kumar characterized his time at Narayana Health as a period of significant professional growth and highlighted his work in reshaping how technology solutions are built, delivered, and adopted. 
+
+Purushotaman reflected on his years at Aster DM Healthcare as a period focused on consolidating systems, strengthening cybersecurity, accelerating cloud adoption, and fostering a data-driven culture across India and the GCC. He described the role as one of the most rewarding phases of his career, attributing success to the organization’s people, leadership, and shared purpose. Purushotaman welcomed Kumar as a seasoned healthcare technology leader bringing substantial experience and new energy to guide Aster’s next phase of digital development. He will remain with the company for a few months as Vice President – Technology (Transition Office) to ensure continuity and a smooth handover.
+
+Author: ETCIO Desk  
+Publisher: ETCIO
+
+====================================================================================================
+TITLE   : Chandresh Dedhia exits Zepto
+URL     : https://cio.economictimes.indiatimes.com/news/corporate-news/chandresh-dedhia-leaves-zepto-after-successful-tenure-in-rapidly-growing-startup/125157634
+
+SUMMARY:
+Chandresh Dedhia, Head of IT and Vice President at quick-commerce startup Zepto, has announced his exit from the company. In a LinkedIn post, he characterized his tenure as an “amazing journey,” highlighting his role in overseeing technology infrastructure, scaling systems, building teams, and managing challenges during a hyper-growth phase. Zepto, founded in 2021 by Aadit Palicha and Kaivalya Vohra, operates a dark-store model with urban mini-warehouses enabling approximately 10-minute delivery of groceries and essentials. The Bengaluru-headquartered firm offers more than 45,000 products, has expanded into electronics and other categories, and was valued at about USD 5 billion in 2024. Dedhia publicly thanked Zepto leaders, including co-founder Kaivalya Vohra and executive Nikhil Mittal, for their support and the opportunity to contribute to the company’s mission. He stated that he is leaving the role feeling energized and prepared to pursue new challenges.
+
+Author: ETCIO Desk (with input from Vaishnavi J Desai)
+Publisher: ETCIO
+
+====================================================================================================
+TITLE   : Cloud, code, and cuts: How India’s IT industry is rewriting its workforce for the AI era
+URL     : https://cio.economictimes.indiatimes.com/news/corporate-news/cloud-code-and-cuts-how-indias-it-industry-is-rewriting-its-workforce-for-the-ai-era/125132663
+
+SUMMARY:
+India’s IT industry is undergoing significant workforce restructuring as major firms such as TCS, Infosys, and Wipro, along with global players like Accenture, Oracle, and IBM, implement large-scale layoffs while pivoting toward AI, cloud, and product-centric models. Despite these job cuts, the sector remains a key pillar of the Indian economy, with IT and ITeS exports reaching about USD 199 billion in FY 2023–24 and projected to rise to USD 224 billion in FY 2024–25. The article details substantial headcount reductions at leading firms—TCS (~12,000 roles), Infosys (~25,994), and Wipro (~24,516)—framed by management as restructuring for agility, cost efficiency, and future readiness. Experts cited are divided on whether layoffs are truly driven by realized AI efficiency gains or by board-level pressure to demonstrate value and cost discipline from AI initiatives, with some arguing that current value realization is still limited. A Wharton survey referenced in the piece indicates that 75% of companies report positive ROI from AI and nearly half of business leaders are using AI themselves, suggesting measurable benefits in some organizations. The article concludes that many enterprises may be adopting AI under uncertainty and fear of missing out, and stresses the need for more deliberate, strategy-led implementation that balances innovation with workforce impact.
+
+Author:
+Muqbil Ahmar  
+Publisher:
+ETCIO
+
+====================================================================================================
+TITLE   : Our enterprise data backbone helps optimize service delivery & enables deep, granular analytics: Kanav Arora, SVP Engineering, Urban Company
+URL     : https://cio.economictimes.indiatimes.com/news/big-data/our-enterprise-data-backbone-helps-optimize-service-delivery-enables-deep-granular-analytics-kanav-arora-svp-engineering-urban-company/125074084
+
+SUMMARY:
+Urban Company is positioning data and technology as the core of its home services business across India, the UAE, and Singapore, using a full-stack model that controls onboarding, training, and tooling of service professionals to standardize quality. The company is leveraging Snowflake’s AI Data Cloud to gain real-time visibility into supply–demand dynamics across hubs, enabling proactive resource allocation and reducing cancellations and delays, particularly during peak demand. AI-driven models such as the Reliability Score Model support more accurate demand servicing, while data is also used extensively for quality assurance through predictive models, image-based checks, and real-time feedback loops. Generative AI is being applied to partner onboarding via voice bots and to a fully GenAI-powered help center, improving speed and personalization of customer support. A unified data backbone provides granular metrics and a single source of truth for teams across operations, marketing, product, finance, and partner management, accelerating experimentation, innovation, and time-to-value by freeing engineers from infrastructure management.
+
+Author:
+Sneha Jha  
+Publisher:
+ETCIO  
+Executive:
+Kanav Arora, SVP Engineering, Urban Company
+
