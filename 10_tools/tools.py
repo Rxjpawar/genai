@@ -15,10 +15,11 @@ load_dotenv()
 
 
 llm = ChatOpenAI(
-    api_key=os.getenv("GOOGLE_API_KEY"),
-    model="gemini-2.5-flash",
-    base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+    api_key =os.getenv("GROQ_API_KEY"),
+    model = "openai/gpt-oss-120b",
+    base_url="https://api.groq.com/openai/v1",
 )
+
 
 
 @tool

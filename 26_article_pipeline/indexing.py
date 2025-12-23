@@ -1,45 +1,35 @@
-from langchain_community.document_loaders import RecursiveUrlLoader,WebBaseLoader
-from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_qdrant import QdrantVectorStore
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from dotenv import load_dotenv
-import os
-from langchain_huggingface import HuggingFaceEmbeddings
+import requests
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 
-load_dotenv()
-start_url = (
-    "https://cio.economictimes.indiatimes.com/exclusives/")
+BASE_URL = "https://cio.economictimes.indiatimes.com/exclusives?utm_source=main_menu&utm_medium=exclusiveNews"
+START_URL = f"{BASE_URL}/news/cio-movement"
+OUTPUT_FILE = "data.txt"
 
-loader = RecursiveUrlLoader(
-    url=start_url,
-    max_depth=2,
-    use_async=True,)
+headers = {
+    "User-Agent": "Mozilla/5.0"
+}
 
-# loader=WebBaseLoader(start_url)
+response = requests.get(START_URL, headers=headers, timeout=20)
+response.raise_for_status()
 
-docs = loader.load()
-docs = [d for d in docs if d.page_content and len(d.page_content.strip()) > 300]
-print(f"Documents loaded {len(docs)}")
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=800, chunk_overlap=100)
+soup = BeautifulSoup(response.text, "html.parser")
 
-document = text_splitter.split_documents(documents=docs)
-print(f"Chunks created {len(document)}")
+articles = []
 
-print("Loading the embedding model")
+for a in soup.select("a[href^='/news/']"):
+    title = a.get_text(strip=True)
+    href = a.get("href")
 
-embedding_model = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-MiniLM-L6-v2",
-    model_kwargs={"device": "cpu"},
-    encode_kwargs={"normalize_embeddings": False})
-print("Loaded the embdding model")
+    if title and len(title) > 20:
+        full_url = urljoin(BASE_URL, href)
+        articles.append((title, full_url))
 
-print("Storing the vector db")
+print("Articles found:", len(articles))
 
-vector_store = QdrantVectorStore.from_documents(
-    documents=document,
-    url="http://localhost:6333",
-    collection_name="cio_rag",
-    embedding=embedding_model,
-    force_recreate = True)
+with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    for i, (title, url) in enumerate(articles, 1):
+        f.write(f"{i}. {title}\n")
+        f.write(f"{url}\n\n")
 
-print("Indexing is completed")
+print("links added to data.txt")
