@@ -12,3 +12,4 @@ def mark_seen(urls):
     with open(SEEN_FILE, "a") as f:
         for url in urls:
             f.write(url + "\n")
+            
