@@ -1,59 +1,59 @@
-1. Reinventing IT at scale: What Kyndryl CIO Kim Basile learned as Customer Zero
+1. Deepak Gupta joins AMPL as Group Chief Technology and AI Officer
+https://cio.economictimes.indiatimes.com/news/artificial-intelligence/deepak-gupta-appointed-group-chief-technology-and-ai-officer-at-ampl/126118902?utm_source=exclusives_listing&utm_medium=exclusiveNews
+
+2. Reinventing IT at scale: What Kyndryl CIO Kim Basile learned as Customer Zero
 https://cio.economictimes.indiatimes.com/news/corporate-news/transforming-it-insights-from-kyndryls-cio-kim-basile-on-navigating-modern-challenges/126074162?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
-2. Sriram Arthanari joins Kaleesuwari Group as VP–IT
+3. Sriram Arthanari joins Kaleesuwari Group as VP–IT
 https://cio.economictimes.indiatimes.com/news/cio-movement/sriram-arthanari-appointed-as-vp-it-at-kaleesuwari-group-amid-digital-transformation/126075366?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
-3. India’s AI mandate: From experiments to an intelligent enterprise
+4. India’s AI mandate: From experiments to an intelligent enterprise
 https://cio.economictimes.indiatimes.com/news/artificial-intelligence/indias-transition-to-ai-from-experimental-pilots-to-full-integration/126056158?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
-4. AI-driven automation: The new engine of enterprise software agility
+5. AI-driven automation: The new engine of enterprise software agility
 https://cio.economictimes.indiatimes.com/news/artificial-intelligence/revolutionizing-software-development-the-power-of-ai-driven-automation/125912460?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
-5. Quantum computing could break Bitcoin by 2027: The end of crypto security?
+6. Quantum computing could break Bitcoin by 2027: The end of crypto security?
 https://cio.economictimes.indiatimes.com/news/next-gen-technologies/quantum-computing-threatens-cryptocurrency-security-by-2027/125860132?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
-6. Anand Kumar Sinha joins Tata Technologies as Chief Digital and Information Officer
+7. Anand Kumar Sinha joins Tata Technologies as Chief Digital and Information Officer
 https://cio.economictimes.indiatimes.com/news/cio-movement/anand-kumar-sinha-joins-tata-technologies-as-chief-digital-and-information-officer/125732647?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
-7. Dr. Puneet Kaur Kohli joins Generali Central Life Insurance as CTO
+8. Dr. Puneet Kaur Kohli joins Generali Central Life Insurance as CTO
 https://cio.economictimes.indiatimes.com/news/cio-movement/dr-puneet-kaur-kohli-joins-generali-central-life-insurance-as-cto/125538888?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
-8. New DPDP regime strengthens data subject rights, redefines consent standards
+9. New DPDP regime strengthens data subject rights, redefines consent standards
 https://cio.economictimes.indiatimes.com/news/digital-security/dpdp-rules-revolutionize-data-rights-and-consent-framework/125498900?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
-9. How India’s DPDP rules reshape risk, cost and governance
+10. How India’s DPDP rules reshape risk, cost and governance
 https://cio.economictimes.indiatimes.com/news/digital-security/how-indias-dpdp-rules-reshape-risk-cost-and-governance/125433955?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
-10. Anjali Satam joins ACG World as CTO
+11. Anjali Satam joins ACG World as CTO
 https://cio.economictimes.indiatimes.com/news/corporate-news/anjali-satam-appointed-cto-of-acg-world-spearheading-digital-transformation/125289629?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
-11. The end of POC theatre: CIOs shift from concept to value
+12. The end of POC theatre: CIOs shift from concept to value
 https://cio.economictimes.indiatimes.com/news/strategy-and-management/the-end-of-poc-theatre-cios-shift-from-concept-to-value/125268939?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
-12. Our AI engine helps brands make decisions at “Quick-Commerce-Like” speed, says Satyam Krishna, GobbleCube
+13. Our AI engine helps brands make decisions at “Quick-Commerce-Like” speed, says Satyam Krishna, GobbleCube
 https://cio.economictimes.indiatimes.com/news/artificial-intelligence/our-ai-engine-helps-brands-make-decisions-at-quick-commerce-like-speed-says-satyam-krishna-gobblecube/125221986?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
-13. Ninad Raje joins Times Group as the Group CIO
+14. Ninad Raje joins Times Group as the Group CIO
 https://cio.economictimes.indiatimes.com/news/cio-movement/ninad-raje-joins-times-group-as-the-group-cio/125222072?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
-14. Arivarasu Selvaraj exits Adani Group, joins Adventz Group
+15. Arivarasu Selvaraj exits Adani Group, joins Adventz Group
 https://cio.economictimes.indiatimes.com/news/cio-movement/arivarasu-selvaraj-joins-adventz-group-as-chief-digital-officer-after-leaving-adani-group/125221922?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
-15. Veneeth Purushotaman hands over CIO role to Kumar KV at Aster DM healthcare
+16. Veneeth Purushotaman hands over CIO role to Kumar KV at Aster DM healthcare
 https://cio.economictimes.indiatimes.com/news/cio-movement/veneeth-purushotaman-hands-over-cio-role-to-kumar-kv-at-aster-dm-healthcare/125177873?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
-16. Chandresh Dedhia exits Zepto
+17. Chandresh Dedhia exits Zepto
 https://cio.economictimes.indiatimes.com/news/corporate-news/chandresh-dedhia-leaves-zepto-after-successful-tenure-in-rapidly-growing-startup/125157634?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
-17. Cloud, code, and cuts: How India’s IT industry is rewriting its workforce for the AI era
+18. Cloud, code, and cuts: How India’s IT industry is rewriting its workforce for the AI era
 https://cio.economictimes.indiatimes.com/news/corporate-news/cloud-code-and-cuts-how-indias-it-industry-is-rewriting-its-workforce-for-the-ai-era/125132663?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
-18. Our enterprise data backbone helps optimize service delivery & enables deep, granular analytics: Kanav Arora, SVP Engineering, Urban Company
+19. Our enterprise data backbone helps optimize service delivery & enables deep, granular analytics: Kanav Arora, SVP Engineering, Urban Company
 https://cio.economictimes.indiatimes.com/news/big-data/our-enterprise-data-backbone-helps-optimize-service-delivery-enables-deep-granular-analytics-kanav-arora-svp-engineering-urban-company/125074084?utm_source=exclusives_listing&utm_medium=exclusiveNews
-
-19. Infor CEO Kevin Samuelson: Industry-focused AI is the key to real value in India
-https://cio.economictimes.indiatimes.com/news/next-gen-technologies/unlocking-value-in-india-infor-ceo-kevin-samuelson-on-industry-focused-ai/124844806?utm_source=exclusives_listing&utm_medium=exclusiveNews
 
 20. NewsSee whats happening in Indian IT industry right now
 https://cio.economictimes.indiatimes.com/news/
