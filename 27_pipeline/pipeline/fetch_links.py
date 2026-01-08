@@ -12,7 +12,7 @@ ARTICLE_PATTERN = re.compile(r"/\d{6,}")
 def clean_url(url):
     p = urlparse(url)
     return f"{p.scheme}://{p.netloc}{p.path}"
-
+ 
 def fetch_links():
     r = requests.get(START_URL, headers=HEADERS, timeout=20)
     r.raise_for_status()
