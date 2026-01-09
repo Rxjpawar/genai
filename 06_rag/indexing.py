@@ -31,3 +31,4 @@ def indexing():
     print("Indexing of documents is complete")
 
 
+indexing()

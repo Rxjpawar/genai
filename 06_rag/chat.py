@@ -11,7 +11,6 @@ from indexing import indexing
 from langchain.messages import SystemMessage
 
 load_dotenv()
-indexing()
 client = OpenAI(
     api_key=os.getenv("GROQ_API_KEY"), base_url="https://api.groq.com/openai/v1"
 )
