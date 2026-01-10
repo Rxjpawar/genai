@@ -47,22 +47,22 @@ def main():
                     print("Processing audio...")
                     user_query = r.recognize_google(audio)
 
-                    print(f"😼 : {user_query}")
+                    print(f"Cat : {user_query}")
 
                 except sr.UnknownValueError:
-                    print("🤖 : Sorry I cold not understand your voice.")
+                    print("Bot : Sorry I cold not understand your voice.")
                     continue
 
                 except sr.RequestError:
-                    print("🤖 : Please check your internet.")
+                    print("Cat : Please check your internet.")
                     continue
 
                 except Exception as e:
-                    print("🤖 : Error:", str(e))
+                    print("Bot : Error:", str(e))
                     continue
 
             else:
-                user_query = input("😼 : ")
+                user_query = input("Cat : ")
 
             if user_query.lower() == "exit":
                 print("Exiting app...")
@@ -77,7 +77,7 @@ def main():
                 graph_result = graph_with_mongo.invoke(_state, config)
                 output = graph_result["messages"][-1].content
 
-                print("🤖 :", output)
+                print("Bot :", output)
                 asyncio.run(tts(text=output))
 
 
