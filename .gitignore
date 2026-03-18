@@ -7,9 +7,11 @@ __pycache__/
 
 # Ignore environment variables files
 .env
-
+venv
 # macOS
 .DS_Store
 
 # Ignore entire fine-tuning folders (contains secrets)
 16_fine_tuning/
+
+__pycache__
